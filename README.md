@@ -8,10 +8,10 @@ Resonance & Wonder will be a business to consumer marketplace wbsite for approve
 
 ### Project Links
 
-- [Back end git](https://github.com/traceannwhite/RR-marketplace-backend.git)
+- [Back end git](TBD)
 - [Heroku Deployment](TBD)
-- [Front end git](https://github.com/traceannwhite/RR-marketplace-frontend.git)
-- [Vercel Deployment](https://rr-marketplace-frontend.vercel.app/)
+- [Front end git](https://github.com/traceannwhite/resonanceandwonder)
+- [Vercel Deployment](https://resonanceandwonder.vercel.app/)
 
 ### Wireframes and Architecture
 
