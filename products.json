@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Women's Wool Runners",
+    "id": 1,
+    "description": "An everyday sneaker made with merino wool.",
+    "category": "Clothing and Shoes",
+    "price": 98,
+    "seller": "Allbirds",
+    "quantity": 50,
+    "image": "images/allbirds-wool-sneakers.png"
+  },
+  {
+    "name": "Avocado Body Butter",
+    "id": 2,
+    "description": "This intensely creamy Body Butter comes in recyclable packaging* made with an aluminium lid and 100% recycled plastic tub, including Community Fair Trade recycled plastic from India.",
+    "category": "Self-care",
+    "price": 22,
+    "seller": "The Body Shop",
+    "quantity": 25,
+    "image": "/images/the-body-shop-body-butter.png"
+  }
+]

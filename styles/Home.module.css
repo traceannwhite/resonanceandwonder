@@ -34,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: teal;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: wrap;
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -93,8 +93,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: rgb(31, 165, 165);
+  border-color: rgb(31, 165, 165);
 }
 
 .card h2 {
@@ -112,6 +112,11 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+/* .headline {
+  display: flex;
+  justify-content: space-between;
+} */
 
 @media (max-width: 600px) {
   .grid {
