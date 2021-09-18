@@ -1,0 +1,42 @@
+/* HEADER CONTAINER */
+
+.navcontainer {
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CART BUTTON */
+.cartlink {
+  padding: 1em;
+}
+
+.cartbtn {
+  display: flex;
+}
+
+.cartbtn a {
+  padding: 10px;
+}
+
+/* PRODUCT PAGE LINKS  */
+.categorylinks {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.navlink {
+  color: black;
+}
+
+.navlink:hover {
+  color: teal;
+}

@@ -7,7 +7,7 @@
     "price": 98,
     "seller": "Allbirds",
     "quantity": 50,
-    "image": "images/allbirds-wool-sneakers.png"
+    "image": "/image/allbirds-wool-sneakers.png"
   },
   {
     "name": "Avocado Body Butter",
@@ -17,6 +17,6 @@
     "price": 22,
     "seller": "The Body Shop",
     "quantity": 25,
-    "image": "/images/the-body-shop-body-butter.png"
+    "image": "/image/the-body-shop-body-butter.png"
   }
 ]

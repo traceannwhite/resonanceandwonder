@@ -1,10 +1,11 @@
 import { Container, Navbar, Nav, NavItem, NavLink } from "reactstrap";
 import { RiShoppingCartLine } from "react-icons/ri";
+import styles from "../styles/NavBar.module.css";
 
 const NavBar = () => {
   return (
-    <div className="nav-container" id="navbar">
-      <Navbar color="light" light expand="md" className="nav-bar">
+    <div className={styles.navcontainer} id="navbar">
+      <Navbar color="light" light expand="md" className={styles.navbar}>
         <Container className="home-logo">
           <NavLink href="/" className="nav-link" id="navbar-home">
             <img
@@ -18,27 +19,32 @@ const NavBar = () => {
           <NavLink href="/login">Log In</NavLink> */}
           {/* <NavAuth /> */}
           <NavItem>
-            <NavLink href="/cart" className="cart-link">
-              <RiShoppingCartLine className="cart-btn" />
+            <NavLink href="/cart" className={styles.cartlink}>
+              <RiShoppingCartLine className={styles.cartbtn} />
             </NavLink>
           </NavItem>
         </Container>
       </Navbar>
-      <Nav className="product-pages-links">
+      <Nav className={styles.categorylinks}>
         <NavItem>
-          <NavLink href="/products/clothingandshoes/">
+          <NavLink href="/products/clothingandshoes" className={styles.navlink}>
             Clothing and Shoes
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/products/homeandliving/">Home and Living</NavLink>
-        </NavItem>
-
-        <NavItem>
-          <NavLink href="/products/ecofriendly/">Eco-friendly Products</NavLink>
+          <NavLink href="/products/homeandliving" className={styles.navlink}>
+            Home and Living
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/products/selfcare/">Self-care Goods</NavLink>
+          <NavLink href="/products/ecofriendly" className={styles.navlink}>
+            Eco-friendly Products
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/products/selfcare" className={styles.navlink}>
+            Self-care Goods
+          </NavLink>
         </NavItem>
       </Nav>
     </div>

@@ -1,4 +1,4 @@
-import products from "../products.json";
+import products from "../pages/api/products/products/json";
 import styles from "../styles/Products.module.css";
 
 const ExpandedProduct = () => {

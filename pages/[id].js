@@ -1,4 +1,4 @@
-import ExpandedProduct from "../../components/ExpandedProduct";
+import ExpandedProduct from "../components/ExpandedProduct";
 
 const ExpandedProductPage = () => {
   return (
