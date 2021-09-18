@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 // import Hero from "../components/Hero";
 import ProductCard from "../components/ProductCard";
 import CategoryCard from "../components/CategoryCard";
-// import AddToCart from "../components/AddToCart";
 
 export default function Home() {
   return (
@@ -32,12 +31,10 @@ export default function Home() {
             <CategoryCard
               image="image/home-and-living.jpeg"
               name="Home and Living"
-              url="homeandliving"
             />
             <CategoryCard
               image="image/eco-friendly.jpeg"
               name="Eco-friendly Products"
-              url="ecofriendlyproducts"
             />
           </div>
         </div>
