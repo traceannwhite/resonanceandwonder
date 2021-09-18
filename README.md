@@ -129,6 +129,7 @@ Frontend
 - CSS
 - React, react-router-dom
 - Reactstrap
+- Redux
 - Next.js
 - Node
 - Express

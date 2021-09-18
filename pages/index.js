@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import ProductCard from "../components/ProductCard";
 import CategoryCard from "../components/CategoryCard";
 // import AddToCart from "../components/AddToCart";
@@ -28,7 +28,6 @@ export default function Home() {
             <CategoryCard
               image="image/clothing-and-shoes.jpeg"
               name="Clothing and Shoes"
-              url="clothingandshoes"
             />
             <CategoryCard
               image="image/home-and-living.jpeg"

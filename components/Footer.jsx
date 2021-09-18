@@ -1,8 +1,8 @@
-import React from "react";
+import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
+    <footer className={styles.footer}>
       Copyright by <span>Trace White </span>
       {new Date().getFullYear()}
     </footer>

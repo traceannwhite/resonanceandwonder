@@ -1,8 +1,17 @@
 import { Container, Navbar, Nav, NavItem, NavLink } from "reactstrap";
 import { RiShoppingCartLine } from "react-icons/ri";
 import styles from "../styles/NavBar.module.css";
+import { useSelector } from "react-redux";
 
 const NavBar = () => {
+  //select the cart from the global state
+  const cart = useSelector((state) => state.cart);
+
+  //getting the number of items
+  const getProductsCount = () => {
+    return cart.reduce((accumulator, item) => accumulator + item.quantity, 0);
+  };
+
   return (
     <div className={styles.navcontainer} id="navbar">
       <Navbar color="light" light expand="md" className={styles.navbar}>
@@ -21,6 +30,7 @@ const NavBar = () => {
           <NavItem>
             <NavLink href="/cart" className={styles.cartlink}>
               <RiShoppingCartLine className={styles.cartbtn} />
+              <p>({getProductsCount()})</p>
             </NavLink>
           </NavItem>
         </Container>
